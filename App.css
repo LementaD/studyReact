@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Скопировано из моего css homework6part1MobileFirst */
+.body   {display: flex; flex-direction: column;}
+
+.header {display: flex; background-color: chocolate; 
+         justify-content:space-between; align-items: center;}
+    .logo {margin: 5px;}
+    .Items {display: flex; justify-content: space-around;}
+        .Item1 {margin: 5px;}
+        .Item2 {margin: 5px;}
+        .Item3 {margin: 5px;}
+        .Item4 {margin: 5px;}
+        .Item5 {margin: 5px;}
+
+.main_aside1_aside2 {display: flex;}
+    .aside1 {display: flex; background-color: hotpink; 
+             width: 210px; justify-content: center;}
+    .main   {display: flex; background-color:beige; flex-direction: column;}
+        .text-box {display: flex; flex-direction: column; 
+                   align-items: center;}
+            .text {margin: 5px; text-align: center;}
+            .OUR_WORK {margin: 5px;}
+        .card-box {display: flex; justify-content: space-around; 
+                   flex-wrap: wrap;}
+            .card {display: flex; flex-direction: column; align-items: center; justify-content: space-around;
+                   border: solid; border-radius: 10%; width: 275px; height: 350px; margin: 5px;}
+                .text-in-card {text-align: center; width: 230px; height: 75px;} 
+                .picture {width: 100px; height: 100px;}
+                .Go {color: aliceblue; background-color:darkslateblue;
+                     border-radius: 45%; width: 50px; height: 25px; text-align: center}
+            
+            .card:hover {background-color: cadetblue;}
+
+    .aside2 {display: flex; background-color: dimgray; 
+             width: 210px; justify-content: center;}
+
+.footer {display: flex; background-color: aquamarine; 
+         justify-content: center; align-items: center;}
+
+img {width: 100%; max-width: 100%;}
+
+@media (max-width: 480px) {.aside2 {display: none;}}
+@media (max-width: 1024px) {.aside1 {display: none;}}
